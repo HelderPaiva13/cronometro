@@ -8,7 +8,7 @@ function startAnimation() {
   startButton.disabled = true;
   
  
-  var maxCount = 50; // Número máximo de iterações
+  var maxCount = 100; // Número máximo de iterações
 
   if(input !== null){
     const numero = parseInt(input.value);

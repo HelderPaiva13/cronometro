@@ -1,33 +1,43 @@
+@font-face {
+  font-family: SoulBillani;
+  src: url(./assets/fonts/SoulBillani.otf);
+}
+
 body {
   background-color: gray;
   justify-content: center;
   display: flex;
   align-items: center;
+  
+}
+
+h1 {
+  font: normal 80px SoulBillani;
 }
 
 #container {
-  width: 500px;
-  height: 700px;
+  width: 600px;
+  height: 800px;
   margin-top: 20px;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: column;
   box-shadow: 10px 5px 5px 10px black;
   border-radius: 5%;
-  background-color: #FFA500 ;
+  background-color: #FFb6c1 ;
  
 }
 
 #container2 {
   background-color: #fff;
   width: 500px;
-  height: 600px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
- 
+  text-align: center;
   border-radius: 5%;
 }
 
@@ -39,7 +49,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #FFA500;
+  background-color: #FFb6c1;
   margin-top: 10px;
 }
 
@@ -47,19 +57,19 @@ body {
   
   text-align: center;
   padding: auto;
-  font: normal bold 98px arial, verdana;
+  font: normal bold 98px SoulBillani;
 }
 
 button {
   color: #ffffff;
-  background: #2196F3;
+  background: #ff6781;
   border-radius: 5%;
   padding: 10px;
   
 }
 
 button:hover {
-  background: #00BFFF;
+  background: #de3163;
 }
 
 button:clicked {
@@ -69,3 +79,9 @@ button:clicked {
 .input {
   margin: 10px;
 }
+
+span {
+  font-size: 90px;
+  font-weight: bold;
+}
+
